@@ -114,13 +114,8 @@ public class GamePanel extends JPanel implements ActionListener {
 			g.fillRect(foodX, foodY, UNIT_SIZE, UNIT_SIZE);
 			
 			for (int i = 0; i < bodyParts; i++) {
-				if (i == 0) {
-					g.setColor(Color.decode(snakeColor));
-					g.fillRect(x[i], y[i], UNIT_SIZE, UNIT_SIZE);
-				} else {
-					g.setColor(Color.decode(snakeColor));
-					g.fillRect(x[i], y[i], UNIT_SIZE, UNIT_SIZE);
-				}
+				g.setColor(Color.decode(snakeColor));
+				g.fillRect(x[i], y[i], UNIT_SIZE, UNIT_SIZE);
 			}
 			
 			// Score text
