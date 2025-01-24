@@ -14,5 +14,5 @@ Puedes clonar el repositorio o descargarlo como un archivo ZIP.
 java -jar Snake.jar
 
 <h1>Requisitos</h1>
-### Java Runtime Environment (JRE) versión 8 o superior. Puedes verificar tu versión de Java con:
+###Java Runtime Environment (JRE) versión 8 o superior. Puedes verificar tu versión de Java con:
 java -version
